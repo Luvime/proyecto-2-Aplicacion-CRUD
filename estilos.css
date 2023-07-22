@@ -6,3 +6,38 @@ body {
 h1 {
     text-align: center;
 }
+
+header {
+    display: flex;
+    background-color: rgb(12, 173, 119);
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 70px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    font-weight: 700;
+    padding-right: 15px;
+    align-items: center;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: 60px;
+}
